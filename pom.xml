@@ -9,9 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.astrocode</groupId>
+
 	<artifactId>email-mcs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>email-mcs</name>
+	<name>user-mcs</name>
+
+	<artifactId>user-mcs</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>user-mcs</name>
+
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -40,10 +46,13 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+
+
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<dependency>
